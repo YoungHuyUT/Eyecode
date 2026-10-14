@@ -1,0 +1,34 @@
+{
+  "baseline": {
+    "SR": 0.557,
+    "SR_nominal": 1.0,
+    "SR_ID": 0.167,
+    "SR_OOD": 0.065
+  },
+  "retry": {
+    "SR": 0.807,
+    "SR_nominal": 1.0,
+    "SR_ID": 1.0,
+    "SR_OOD": 0.065
+  },
+  "retry_reset": {
+    "SR": 1.0,
+    "SR_nominal": 1.0,
+    "SR_ID": 1.0,
+    "SR_OOD": 1.0
+  },
+  "vlm_loop": {
+    "SR": 0.917,
+    "SR_nominal": 1.0,
+    "SR_ID": 0.878,
+    "SR_OOD": 0.774,
+    "recall": 0.836,
+    "precision": 0.907
+  },
+  "oracle": {
+    "SR": 1.0,
+    "SR_nominal": 1.0,
+    "SR_ID": 1.0,
+    "SR_OOD": 1.0
+  }
+}
